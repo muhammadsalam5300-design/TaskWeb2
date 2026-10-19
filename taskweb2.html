@@ -10,6 +10,7 @@
         body {
             font-family: Arial, sans-serif;
             margin: 30px;
+            background-color: #f5f7fa;
         }
 
         h2 {
@@ -20,11 +21,12 @@
         table {
             width: 100%;
             border-collapse: collapse;
+            background-color: white;
         }
 
         th, td {
             border: 1px solid black;
-            padding: 8px;
+            padding: 10px;
             text-align: left;
         }
 
@@ -32,7 +34,12 @@
             background-color: #eaf2f8;
         }
 
+        .label {
+            width: 25%;
+        }
+
         .photo {
+            width: 25%;
             text-align: center;
         }
 
@@ -40,6 +47,10 @@
             width: 120px;
             height: 140px;
             object-fit: cover;
+        }
+
+        a {
+            color: #24558a;
         }
     </style>
 </head>
@@ -50,66 +61,81 @@
 
     <table>
         <tr>
-            <th>Name</th>
+            <th class="label">Name</th>
             <td>MUHAMMAD SALAM</td>
             <th class="photo">
-                <img src="photo.jpg" alt="My Photo">
+                <img src="photo.jpg" alt="Muhammad Salam's Photo">
             </th>
         </tr>
 
         <tr>
-            <td>Date of birth</td>
+            <td>Date of Birth</td>
             <td colspan="2">31/07/2004</td>
         </tr>
 
         <tr>
             <td>Religion</td>
-            <td colspan="2">Your Religion</td>
+            <td colspan="2">Islam</td>
         </tr>
 
         <tr>
             <td>Race</td>
-            <td colspan="2">Your Race</td>
+            <td colspan="2">Not Provided</td>
         </tr>
 
         <tr>
             <td rowspan="4">Address</td>
             <td>Street</td>
-            <td>Not Provided</td>
+            <td>Ayer Hitam</td>
         </tr>
 
         <tr>
             <td>Town</td>
-            <td>AYER HITAM</td>
+            <td>Ayer Hitam</td>
         </tr>
 
         <tr>
             <td>District</td>
-            <td>Not Provided</td>
+            <td>Batu Pahat</td>
         </tr>
 
         <tr>
-            <td>State</td>
-            <td>Johor</td>
+            <td>State / Postcode</td>
+            <td>Johor, 86100</td>
         </tr>
 
         <tr>
             <td rowspan="3">Contact</td>
             <td>Mobile Phone</td>
-            <td>Not Provided</td>
+            <td>
+                <a href="tel:0189400649">0189400649</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Email</td>
+            <td>
+                <a href="mailto:muhammadsalam5300@gmail.com">
+                    muhammadsalam5300@gmail.com
+                </a>
+            </td>
         </tr>
 
         <tr>
             <td>Social Media</td>
             <td>
-                <a href="https://www.linkedin.com/">LinkedIn</a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    LinkedIn
+                </a>
             </td>
         </tr>
 
         <tr>
             <td>Website</td>
-            <td>
-                <a href="https://github.com/">GitHub</a>
+            <td colspan="2">
+                <a href="https://github.com/" target="_blank">
+                    GitHub
+                </a>
             </td>
         </tr>
 
@@ -122,18 +148,20 @@
         </tr>
 
         <tr>
-            <td>Programming skills</td>
-            <td colspan="2">HTML, CSS, Java, Python</td>
+            <td>Programming Skills</td>
+            <td colspan="2">
+                HTML, CSS, Java, Python
+            </td>
         </tr>
 
         <tr>
             <td>Hobbies</td>
-            <td colspan="2">CRICKET</td>
+            <td colspan="2">Cricket</td>
         </tr>
 
         <tr>
             <td>2026 Wishlist</td>
-            <td colspan="2">Become a SECURITY ANALYST</td>
+            <td colspan="2">Become a Security Analyst</td>
         </tr>
     </table>
 
